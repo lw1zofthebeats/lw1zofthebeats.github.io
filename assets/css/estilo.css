@@ -1,0 +1,27 @@
+:root {
+    --cor-fundo-destaque: rgb(212, 116, 5);
+    --cor-frente-destaque: #FFF;
+    --espacamento-padrao: 0.5rem;
+    --font-family-padrao: 'Open Sans', sans-serif;
+}
+
+
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: var(--cor-fundo-destaque);
+}
+
+@media only screen and (min-width: 768px;) {
+    article {
+        display: flex;
+        flex-direction: row;
+    }
+
+    article section {
+        width: 45vw;
+    }
+}
